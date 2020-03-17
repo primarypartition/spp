@@ -1,0 +1,28 @@
+{
+    "name": "primarypartition/spp",
+    "description": "Dev Project",
+    "keywords": ["php", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ali Imran",
+            "email": "info@itsali.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*",
+        "illuminate/support": "^5.2",
+        "symfony/finder": "~2.7|~3.0",
+        "aws/aws-sdk-php": "^3.70",
+        "monolog/monolog": "^1.24",
+        "vlucas/phpdotenv": "^2.5",
+        "nesbot/carbon": "^1.34"     
+    },
+    "autoload": {
+        "psr-4": {
+            "primarypartition\\spp\\": "src/"
+        }
+    }
+}
